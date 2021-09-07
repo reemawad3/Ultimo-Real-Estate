@@ -1,0 +1,163 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>  INSERT TITLE HERE   </title>
+  
+  <meta name="author" content="      ADD YOUR NAME AND YOUR EMAIL ADDRESS HERE     ">
+
+  <link rel="stylesheet" href="ultimo_real_estate.css">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript"  src="myscript.js"></script>
+</head>
+
+
+<body>
+
+<div id="wrapper">
+
+
+<header>
+<img src="images/ultimo_real_estate_logo.png" width="625" height="160" alt="Ultimo Real Estate, Sydney, Australia">
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="property.html">Property of the Week</a></li>
+<li><a href="buy_sell_rent.html">Buy-Sell-Rent</a></li>
+<li><a href="agents.html">Agents</a></li>
+<li><a href="suburb_profile.html">Suburb Profile</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="contact.html" id="current">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section id="col1">
+
+<h1>Contact</h1>
+
+<ul>
+<li><strong>Ultimo Real Estate</strong></li>
+<li>20 Jones Street</li>
+<li>ULTIMO NSW 2007</li>
+</ul>
+
+
+<ul>
+<li><strong>Mob: +61 123 456 789</strong></li>
+<li>Tel: +612 1234 5678</li>
+<li>info@ultimorealestate.com.au</li>
+</ul>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6624.85817291638!2d151.19285829205285!3d-33.87860141454631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2f6b3e5fb7%3A0xf97500fd5776ca34!2sJones%20St%2C%20Sydney%20NSW!5e0!3m2!1sen!2sau!4v1581408180870!5m2!1sen!2sau" width="570" height="500" allowfullscreen=""></iframe>
+
+</section>
+
+<section id="col2">
+  
+    <form name="myform"   onsubmit=" return false" action=""  method="post" >
+      <h1>personal information </h1>
+      <div class="row">
+          <label>Full Name:</label>
+          <input type="text" name="name">
+          <div class="error" id="nameErr"></div>
+      </div>
+      <div class="row">
+          <label>Email Address:</label>
+          <input type="text" name="email">
+          <div class="error" id="emailErr"></div>
+      </div>
+      <div class="row">
+          <label>Mobile Number:</label>
+          <input type="text" name="mobile" maxlength="10">
+          <div class="error" id="mobileErr"></div>
+      </div>
+        <p>* = requirment </p>
+        <br>
+        <div class="row">
+          <label>Do you want to Buy or sell or rent ?</label>
+          <div class="form-inline">
+              <label><input type="radio" name="propertyType" value="buy"> Buy</label>
+              <label><input type="radio" name="propertyType" value="sell"> Sell</label>
+              <label><input type="radio" name="propertyType" value="rent"> Rent</label>
+
+          </div>
+          <p class="error" id="propertyTypeErr"></p>
+     
+    </div>
+    <br>
+       
+    <div class="row">
+      <label>What property type/s are you interisted in ?</label>
+      <div class="form-inline">
+          <label><input type="checkbox" name="propertyType2" value="unit">Unit</label>
+          <label><input type="checkbox" name="propertyType2" value="Townhouse">Townhouse</label>
+          <label><input type="checkbox" name="propertyType2" value="Home"> Home</label>
+        </div>
+          <p class="error" id="propertyType2Err"></p>
+     
+      
+  </div>
+      
+      <br><br>
+      <div class="row">
+        <label>How many bedroom do you require?</label>
+        <select name="bedroom">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+        <div class="error" id="bedroomErr"></div>
+    </div>
+      
+        <label for="comment">comment:</label>
+        <textarea id="comment" name="comment" style="height:100px" maxlength="50"></textarea>
+        <div class="error" id="commentErr"></div>
+     
+        <br> <br>
+      <input type="submit" value="Submit Enquiry" onclick="validateForm()">
+  
+    </form>
+ 
+
+
+</section>
+
+
+</main>
+
+<footer>
+<ul>
+<li>&copy; Ultimo Real Estate 20xx</li>
+<li><a href="www.facebook.com/UltimoRealEstate"><img src="images/facebook.png" width="30" height="30" alt="Ultimo Real Estate on Facebook"></a></li>
+<li><a href="www.instagram.com/UltimoRealEstate"><img src="images/instagram.png" width="30" height="30" alt="Ultimo Real Estate on Instagram"></a></li>
+<li><a href="www.twitter.com/UltimoRealEstate"><img src="images/twitter.png" width="30" height="30" alt="Ultimo Real Estate on Twitter"></a></li>
+<li><a href="legals.html">Legals</a></li>
+</ul>
+</footer>
+<script type="text/javascript"  src="myscript.js"></script>
+
+
+</div>
+
+</body>
+</html> 
+
+
